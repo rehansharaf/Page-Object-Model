@@ -10,8 +10,6 @@
 	<test name="Functional Automation Tests">
 		<classes>
 			<class name="com.TestProject.qa.Testcases.LoginPageTest"></class>
-			<class name="com.TestProject.qa.Testcases.HomePageTest"></class>
-			<class name="com.TestProject.qa.Testcases.ContactPageTest"></class>
 		</classes>
 	</test>
 </suite>
