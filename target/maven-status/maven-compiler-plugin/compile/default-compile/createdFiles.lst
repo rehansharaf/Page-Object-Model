@@ -1,0 +1,11 @@
+com\TestProject\qa\util\WebEventListener.class
+com\TestProject\qa\pages\ContactPage.class
+com\qa\ExtentReportListener\ExtentReportListener.class
+com\TestProject\qa\pages\HomePage.class
+com\TestProject\qa\pages\SignupPage.class
+com\TestProject\qa\pages\ForgotPasswordPage.class
+com\TestProject\qa\pages\CreateNewContactPage.class
+com\TestProject\qa\pages\LoginPage.class
+com\TestProject\qa\base\TestBase.class
+com\TestProject\qa\pages\ClassicalCRMLoginPage.class
+com\TestProject\qa\util\TestUtil.class

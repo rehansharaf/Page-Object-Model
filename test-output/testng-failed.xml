@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Project Automation Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="Functional Automation Tests">
+    <classes>
+      <class name="com.TestProject.qa.Testcases.LoginPageTest"/>
+      <class name="com.TestProject.qa.Testcases.HomePageTest"/>
+      <class name="com.TestProject.qa.Testcases.ContactPageTest"/>
+    </classes>
+  </test> <!-- Functional Automation Tests -->
+  <test name="Functional Automation Tests(failed)" parallel="none">
+    <classes>
+      <class name="com.TestProject.qa.Testcases.ContactPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createNewContactTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestProject.qa.Testcases.ContactPageTest -->
+      <class name="com.TestProject.qa.Testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestProject.qa.Testcases.LoginPageTest -->
+      <class name="com.TestProject.qa.Testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestProject.qa.Testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Functional Automation Tests(failed) -->
+</suite> <!-- Failed suite [Test Project Automation Suite] -->

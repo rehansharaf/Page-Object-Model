@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="93353" started-at="2019-04-25T18:43:08Z" finished-at="2019-04-25T18:44:41Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="93353" started-at="2019-04-25T18:43:08Z" finished-at="2019-04-25T18:44:41Z">
+      <class name="com.TestProject.qa.Testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.HomePageTest@3c09711b]" name="setUp" is-config="true" duration-ms="10828" started-at="2019-04-25T18:44:05Z" finished-at="2019-04-25T18:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserNameTest()[pri:1, instance:com.TestProject.qa.Testcases.HomePageTest@3c09711b]" name="verifyLoggedInUserNameTest" duration-ms="1610" started-at="2019-04-25T18:44:16Z" finished-at="2019-04-25T18:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.HomePageTest@3c09711b]" name="tearDown" is-config="true" duration-ms="573" started-at="2019-04-25T18:44:17Z" finished-at="2019-04-25T18:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestProject.qa.Testcases.HomePageTest -->
+      <class name="com.TestProject.qa.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="setUp" is-config="true" duration-ms="9932" started-at="2019-04-25T18:44:18Z" finished-at="2019-04-25T18:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getPageTitleTest()[pri:1, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="getPageTitleTest" duration-ms="4" started-at="2019-04-25T18:44:28Z" finished-at="2019-04-25T18:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="tearDown" is-config="true" duration-ms="578" started-at="2019-04-25T18:44:28Z" finished-at="2019-04-25T18:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="setUp" is-config="true" duration-ms="9793" started-at="2019-04-25T18:44:29Z" finished-at="2019-04-25T18:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTest()[pri:2, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="loginPageTest" duration-ms="2059" started-at="2019-04-25T18:44:38Z" finished-at="2019-04-25T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@5cc7c2a6]" name="tearDown" is-config="true" duration-ms="608" started-at="2019-04-25T18:44:40Z" finished-at="2019-04-25T18:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestProject.qa.Testcases.LoginPageTest -->
+      <class name="com.TestProject.qa.Testcases.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="14843" started-at="2019-04-25T18:43:08Z" finished-at="2019-04-25T18:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="createNewContactTest" duration-ms="5076" started-at="2019-04-25T18:43:23Z" data-provider="getTestData" finished-at="2019-04-25T18:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rehan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rehan123@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No Such Description]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Lead]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Do Not Call]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="576" started-at="2019-04-25T18:43:28Z" finished-at="2019-04-25T18:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="11593" started-at="2019-04-25T18:43:29Z" finished-at="2019-04-25T18:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="createNewContactTest" duration-ms="4941" started-at="2019-04-25T18:43:40Z" data-provider="getTestData" finished-at="2019-04-25T18:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adnan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adnan1234@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No Such Description]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Do Not Call]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="814" started-at="2019-04-25T18:43:45Z" finished-at="2019-04-25T18:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="12525" started-at="2019-04-25T18:43:46Z" finished-at="2019-04-25T18:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="createNewContactTest" duration-ms="5666" started-at="2019-04-25T18:43:59Z" data-provider="getTestData" finished-at="2019-04-25T18:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zubair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No Middle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zubair@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No Description]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Contact]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Do Not Email]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.ContactPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="630" started-at="2019-04-25T18:44:04Z" finished-at="2019-04-25T18:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestProject.qa.Testcases.ContactPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
