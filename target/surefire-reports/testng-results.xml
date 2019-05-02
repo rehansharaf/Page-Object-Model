@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Project Automation Suite" duration-ms="21735" started-at="2019-04-29T20:05:21Z" finished-at="2019-04-29T20:05:42Z">
+  <suite name="Test Project Automation Suite" duration-ms="22648" started-at="2019-05-02T18:19:41Z" finished-at="2019-05-02T18:20:03Z">
     <groups>
     </groups>
-    <test name="Functional Automation Tests" duration-ms="21735" started-at="2019-04-29T20:05:21Z" finished-at="2019-04-29T20:05:42Z">
+    <test name="Functional Automation Tests" duration-ms="22648" started-at="2019-05-02T18:19:41Z" finished-at="2019-05-02T18:20:03Z">
       <class name="com.TestProject.qa.Testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="setUp" is-config="true" duration-ms="10191" started-at="2019-04-29T20:05:21Z" finished-at="2019-04-29T20:05:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="setUp" is-config="true" duration-ms="10412" started-at="2019-05-02T18:19:41Z" finished-at="2019-05-02T18:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getPageTitleTest()[pri:1, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="getPageTitleTest" duration-ms="15" started-at="2019-04-29T20:05:31Z" finished-at="2019-04-29T20:05:31Z">
+        <test-method status="PASS" signature="getPageTitleTest()[pri:1, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="getPageTitleTest" duration-ms="22" started-at="2019-05-02T18:19:51Z" finished-at="2019-05-02T18:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="tearDown" is-config="true" duration-ms="594" started-at="2019-04-29T20:05:31Z" finished-at="2019-04-29T20:05:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="tearDown" is-config="true" duration-ms="580" started-at="2019-05-02T18:19:51Z" finished-at="2019-05-02T18:19:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="setUp" is-config="true" duration-ms="9846" started-at="2019-04-29T20:05:32Z" finished-at="2019-04-29T20:05:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="setUp" is-config="true" duration-ms="10628" started-at="2019-05-02T18:19:52Z" finished-at="2019-05-02T18:20:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTest()[pri:2, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="loginPageTest" duration-ms="486" started-at="2019-04-29T20:05:41Z" finished-at="2019-04-29T20:05:42Z">
+        <test-method status="PASS" signature="loginPageTest()[pri:2, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="loginPageTest" duration-ms="403" started-at="2019-05-02T18:20:02Z" finished-at="2019-05-02T18:20:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="tearDown" is-config="true" duration-ms="577" started-at="2019-04-29T20:05:42Z" finished-at="2019-04-29T20:05:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestProject.qa.Testcases.LoginPageTest@345965f2]" name="tearDown" is-config="true" duration-ms="566" started-at="2019-05-02T18:20:03Z" finished-at="2019-05-02T18:20:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

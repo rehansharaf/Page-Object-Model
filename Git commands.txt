@@ -1,0 +1,48 @@
+1. to create local git repo we use: get init
+
+2. to link our project code with the repo use: 
+git remote add origin "https://github.com/rehansharaf/TestNG-Project.git"
+
+3. to check the status for the files that are commit use: git status
+
+4. to add the code on local repo we use: git add . (this is for the whole project)
+
+5. to commit the code locally we use: git commit -m "comments"
+
+6. Before pushing the code we need to create SSH key from: SSH Key generator and add the key in GitHub Setting add ssh key section
+
+6. to push the code on remote repo we use on master branch: git push origin master 
+
+7. To pull the entire code for first time we use: git clone "link"
+
+8. to pull the changes of code when someone push the code we use: git pull origin master
+
+
+
+
+9. To create a branch in localrepo we use: git branch branchname
+
+10. move back to someother branch we use: git checkout branchname
+
+11. for merging always go to master branch and we use: git merge branchname
+
+12. for rebase first move to the feature branch and use: git rebase master
+    then go to the master branch and use: git rebase "branchname"
+    (rebase is use to merge the branch with the master branch and place it at the top of the master branch)
+
+13. to get back to previous version of file we use first: git log
+to check the logs then pick the hash key 8 digits and use: git checkout hashkey "filename"
+
+
+for creating ssh key: use git bash and write: ssh-keygen
+go to the specific path and use: cat filepath with filename
+
+for authentication we use: ssh -T git@github.com
+
+
+
+
+
+
+
+

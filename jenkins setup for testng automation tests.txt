@@ -1,0 +1,27 @@
+1. install latest jenkins.war and place it in some drive folder
+2. open cmd and go to that directory
+3. execute command java -jar jenkins.war
+4. let it run and get fully running 
+5. copy the secret password and open browser and type localhost:8080
+6. insert the secret password and install the plugins comes with the jenkins 
+7. if error occurs go to .jenkins folder and make changes in the url from https to http in the file "hudson.model.UpdateCenter.xml"
+8. add all the maven plugins and testng reporting plugin
+9. go to global configuration and set the java path without including the bin folder 
+10. get the maven latest one 
+11. in the project get the pom.xml file path and in post select testng report 
+12. execute the build
+
+
+
+To Run code on jenkins from GIT Repo
+
+1. Under Source code Management click Git and enter the URL of your repo and dont change anything else
+
+2. use same pom.xml
+
+3. for extent report: use target/surefire-reports/TestProject_Report.html under index pages, report title to Extent HTML Report and under publishing options Always link to last build
+
+4. for testng report use: **/testng-results.xml
+
+One more thing under script console run the command
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
